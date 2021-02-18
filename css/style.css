@@ -1,0 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.containerFluid {
+  width: 100%;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+.mAuto {
+  margin: auto;
+}
+.my20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navbar {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.navbar p {
+  font-size: 30px;
+  padding: 10px;
+}
+.container {
+  width: 60%;
+}
+.bgDark {
+  background-color: black;
+}
+.tCenter {
+  text-align: center;
+}
+.buttonSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.buttonSection img {
+  width: 150px;
+  height: auto;
+  text-align: center;
+}
+.buttonSection h2 {
+  margin-bottom: 10px;
+}
+.buttonSection p {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.buttonSection button {
+  padding: 10px 20px;
+  border-radius: 40px;
+  margin-bottom: 10px;
+}
+.screenSection {
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+}
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .grid2{
+    grid-template-columns: 100%;
+  }
+}
