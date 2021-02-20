@@ -1,3 +1,8 @@
+window.onload = function() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("content").style.display = "block";
+}
+
 let dragon = document.getElementById("dragon");
 let dragonContainer = document.getElementById("dragonContainer");
 dragon.addEventListener("click", () => {
@@ -44,4 +49,3 @@ death.addEventListener("click", () => {
 let svg1 = document.querySelector("#svg8 path");
 let length = svg1.getTotalLength();
 console.log(length);
-

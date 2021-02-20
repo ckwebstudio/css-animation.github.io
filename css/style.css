@@ -1,77 +1,95 @@
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
-a{
-  color: white;
+
+#content {
+    display: none;
 }
+
 .containerFluid {
-  width: 100%;
+    width: 100%;
 }
+
 .grid2 {
-  display: grid;
-  grid-template-columns: 6fr 6fr;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
 }
+
 .mAuto {
-  margin: auto;
+    margin: auto;
 }
+
 .my20 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .navbar {
-  background-color: red;
-  color: white;
-  text-align: center;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
+
 .navbar p {
-  font-size: 30px;
-  padding: 10px;
+    font-size: 30px;
+    padding: 10px;
 }
+
 .container {
-  width: 60%;
+    width: 60%;
 }
+
 .bgDark {
-  background-color: black;
+    background-color: black;
 }
+
 .tCenter {
-  text-align: center;
+    text-align: center;
 }
+
 .buttonSection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .buttonSection img {
-  width: 150px;
-  height: auto;
-  text-align: center;
+    width: 150px;
+    height: auto;
+    text-align: center;
 }
+
 .buttonSection h2 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
+
 .buttonSection p {
-  font-style: italic;
-  margin-bottom: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
 }
+
 .buttonSection button {
-  padding: 10px 20px;
-  border-radius: 40px;
-  margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    outline: none;
 }
+
 .screenSection {
-  width: 100%;
-  height: auto;
-  display: grid;
-  place-items: center;
+    width: 100%;
+    height: auto;
+    display: grid;
+    place-items: center;
 }
+
 .hide {
-  display: none;
+    display: none;
 }
 
 @media only screen and (max-width: 900px) {
-  .grid2{
-    grid-template-columns: 100%;
-  }
+    .grid2 {
+        grid-template-columns: 100%;
+    }
 }

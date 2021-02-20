@@ -1,120 +1,152 @@
 /* Animating the dragon */
+
 .dragon {
-  fill: none;
-  fill-opacity: 0px;
-  stroke-width: 15px;
-  stroke: rgb(255, 0, 0);
-  stroke-dasharray: 50;
-  stroke-dashoffset: 10000;
-  animation: dragon 15s linear forwards;
-  /* 21461.9140625 */
+    fill: none;
+    fill-opacity: 0px;
+    stroke-width: 15px;
+    stroke: rgb(255, 0, 0);
+    stroke-dasharray: 50;
+    stroke-dashoffset: 10000;
+    animation: dragon 15s linear forwards;
+    /* 21461.9140625 */
 }
 
 @keyframes dragon {
-  to {
-    stroke-dashoffset: 0;
-  }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
+
 
 /* tribal head */
+
 .tribal {
-  fill: #000080;
-  fill-opacity: 0px;
-  stroke-width: 15px;
-  stroke: rgb(255, 255, 255);
-  stroke-dasharray: 22292.80859375;
-  stroke-dashoffset: 22292.80859375;
-  animation: tribal 15s linear forwards;
+    fill: #000080;
+    fill-opacity: 0px;
+    stroke-width: 15px;
+    stroke: rgb(255, 255, 255);
+    stroke-dasharray: 22292.80859375;
+    stroke-dashoffset: 22292.80859375;
+    animation: tribal 15s linear forwards;
 }
+
 @keyframes tribal {
-  to {
-    stroke-dashoffset: 0;
-  }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
+
 
 /* tree */
+
 .treeBody {
-  fill: rgb(63, 30, 8);
-  fill-opacity: 0px;
-  stroke-width: 2px;
-  stroke: rgb(20, 255, 20);
-  stroke-dasharray: 13906.3349609375;
-  stroke-dashoffset: 13906.3349609375;
-  animation: treeBody 30s linear forwards;
+    fill: rgb(63, 30, 8);
+    fill-opacity: 0px;
+    stroke-width: 2px;
+    stroke: rgb(20, 255, 20);
+    stroke-dasharray: 13906.3349609375;
+    stroke-dashoffset: 13906.3349609375;
+    animation: treeBody 30s linear forwards;
 }
+
 @keyframes treeBody {
-  to {
-    stroke-dashoffset: 0;
-  }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
+
 .treeLeaf {
-  /* fill: green; */
-  fill-opacity: 0px;
-  stroke-width: 2px;
-  stroke: rgb(9, 255, 9);
-  stroke-dasharray: 38618.35546875;
-  stroke-dashoffset: 38618.35546875;
-  animation: treeLeaf 25s linear forwards;
-  animation-delay: 10s;
+    /* fill: green; */
+    fill-opacity: 0px;
+    stroke-width: 2px;
+    stroke: rgb(9, 255, 9);
+    stroke-dasharray: 38618.35546875;
+    stroke-dashoffset: 38618.35546875;
+    animation: treeLeaf 25s linear forwards;
+    animation-delay: 10s;
 }
+
 @keyframes treeLeaf {
-  to {
-    stroke-dashoffset: 0;
-  }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
+
+
 /* pigeon */
+
 .pigeon {
-  /* fill: green; */
-  fill-opacity: 0px;
-  stroke-width: 1px;
-  stroke: rgb(255, 218, 9);
-  stroke-dasharray: 15499.09375;
-  stroke-dashoffset: 15499.09375;
-  animation: pigeon 15s linear forwards;
+    /* fill: green; */
+    fill-opacity: 0px;
+    stroke-width: 1px;
+    stroke: rgb(255, 218, 9);
+    stroke-dasharray: 15499.09375;
+    stroke-dashoffset: 15499.09375;
+    animation: pigeon 15s linear forwards;
 }
+
 @keyframes pigeon {
-  to {
-    stroke-dashoffset: 0;
-  }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
+
+
 /* lotus */
+
 .lotus {
-  /* fill: green; */
-  fill-opacity: 0px;
-  stroke-width: 2px;
-  stroke: rgb(255, 60, 196);
-  stroke-dasharray: 10;
-  stroke-dashoffset: 3763.16748046875;
-  animation: pigeon 15s linear forwards;
+    /* fill: green; */
+    fill-opacity: 0px;
+    stroke-width: 2px;
+    stroke: rgb(255, 60, 196);
+    stroke-dasharray: 10;
+    stroke-dashoffset: 3763.16748046875;
+    animation: pigeon 15s linear forwards;
 }
+
 @keyframes lotus {
-  to {
-    stroke-dashoffset: 0;
-  }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
+
 
 /* death */
+
 .death {
-  /* fill: green; */
-  fill-opacity: 0px;
-  stroke-width: 2px;
-  stroke: rgb(27, 31, 241);
-  stroke-dasharray: 5;
-  stroke-dashoffset: 17125.365234375;
-  animation: death 15s linear forwards;
-}
-@keyframes death {
-  to {
-    stroke-dashoffset: 0;
-  }
+    /* fill: green; */
+    fill-opacity: 0px;
+    stroke-width: 2px;
+    stroke: rgb(27, 31, 241);
+    stroke-dasharray: 5;
+    stroke-dashoffset: 17125.365234375;
+    animation: death 15s linear forwards;
 }
 
-/* footer */
-.footer{
-  background-color: red;
-  color: white;
+@keyframes death {
+    to {
+        stroke-dashoffset: 0;
+    }
 }
-.footer p{
-  padding-top: 20px;
-  padding-bottom: 20px;
+
+@keyframes loadAnmi {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* footer */
+
+.footer {
+    background-color: red;
+    color: white;
+}
+
+.footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
